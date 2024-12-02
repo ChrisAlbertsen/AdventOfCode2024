@@ -1,5 +1,4 @@
-﻿using System.Text.RegularExpressions;
-using Tools;
+﻿using Tools;
 
 //prep
 string[] fileContent = FileReader.TxtReadAllLines("input.txt");
