@@ -2,7 +2,6 @@
 using Tools;
 
 string fileContent = String.Join("", FileReader.TxtReadAllLines("input.txt"));
-//string fileContent = "<mul(401,458)-from()+mul(92,705)\r\n}?/,(~+^mul(398,379)why()-!why(){}mul(618,341)how(818,559)'%}~+}'";
 
 //part 1
 Regex mulRegex = new Regex(@"mul\(([0-9]{1,3}),([0-9]{1,3})\)");
